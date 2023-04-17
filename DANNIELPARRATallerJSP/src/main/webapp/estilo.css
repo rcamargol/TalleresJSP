@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e5e5f7;
+	background-image: radial-gradient(#f6ddfd 0.5px, #e5e5f7 0.5px);
+	background-size: 10px 10px;
+	display: flex;
+	min-height: 100vh;
+	
+}
+.form{
+	background-color: #fff;
+	margin: auto;
+	width: 90%;
+	max-width: 800px;
+	padding: 4.5em 3em;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
+
+.resp{
+	background-color: #fff;
+	margin: auto;
+	width: 90%;
+	max-width: 800px;
+	padding: 4.5em 3em;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%)
+}
+.respTitle{
+	font-size: 2rem;
+	margin-bottom: .5em;
+	text-align: center;
+}
+.formTitle{
+	font-size: 2rem;
+	margin-bottom: .5em;
+	text-align: center;
+}
+.formingre{
+	font-size: 2rem;
+	margin-bottom: .5em;
+	text-align: center;	
+}
+.form_group{
+	position: relative;
+	--color: #5757577e;
+	
+}
+.formcontenedor{
+	margin-top: 3em;
+	display: grid;
+	gap: 2.5em;
+	
+	
+}
+.formInput{
+	width: 100%;
+	background: none;
+	color: #706c6c;
+	font-size: 1rem;
+	padding: .1em .10em;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid var(--color);
+	font-family: 'Reboto', sans-serif;
+}

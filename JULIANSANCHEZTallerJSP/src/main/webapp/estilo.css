@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+body{
+    background-image: url('fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    flex-direction: column;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+label{
+    color:#888;
+    font-size: 15px;
+    padding: 10px;
+}
+form {
+    width: 680PX;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    opacity: 0.8;
+    -moz-opacity:0.8;
+    filter: alpha(opacity=80);
+    -khtml-opacity:0.8;
+}
+center{
+	color:#ffffff;
+	font: Comic Sans;
+}
+button{
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+button:hover{
+    opacity:.7;
+}

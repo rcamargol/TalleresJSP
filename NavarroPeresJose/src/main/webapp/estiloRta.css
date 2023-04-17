@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Estilo para los encabezados de nivel 2 y 3 */
+h2, h3 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+/* Estilo para el enlace de volver a comprar */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilo para el botón de volver a comprar */
+button {
+  background-color: #008CBA;
+  border: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Estilo para el botón de volver a comprar al pasar el mouse sobre él */
+button:hover {
+  background-color: #0077a3;
+}
+
+/* Estilo para el contenedor principal de la página */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el mensaje de compra realizada satisfactoriamente */
+.purchase-msg {
+  margin-bottom: 2rem;
+}
+
+/* Estilo para el mensaje de dirección IP */
+.ip-msg {
+  margin-top: 2rem;
+}

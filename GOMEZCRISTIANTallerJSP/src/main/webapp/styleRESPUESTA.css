@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #C2D5E5;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+b {
+	font-weight: bold;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container b {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.container b:last-of-type {
+	margin-bottom: 0;
+}
